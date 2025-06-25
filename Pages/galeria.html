@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Casamentos - Raiz & Amor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href= "../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+     <button class="btn btn-primary btn-lg floating-quote-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasOrcamento" title="Solicite um Orçamento Rápido">
+    <i class="bi bi-calendar-check-fill"></i>
+</button>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" style="font-family: 'Playfair Display', serif;" href="index.html">Raiz & Amor Casamentos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="serviços.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="gallery-header">
+        <div class="container text-center text-white">
+            <h1 class="display-4">Nossa Galeria de Sonhos</h1>
+            <p class="lead">Explore a beleza e a emoção que registramos em cada celebração.</p>
+        </div>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <div class="row g-4 row-cols-2 row-cols-md-3 row-cols-lg-4">
+                
+                <div class="col">
+                    <div class="gallery-thumbnail" data-bs-toggle="modal" data-bs-target="#modal-1">
+                        <img src="https://images.pexels.com/photos/169190/pexels-photo-169190.jpeg" alt="Noivos no campo">
+                        <div class="gallery-overlay"><i class="bi bi-arrows-fullscreen"></i></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-thumbnail" data-bs-toggle="modal" data-bs-target="#modal-2">
+                        <img src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg" alt="Mesa decorada">
+                        <div class="gallery-overlay"><i class="bi bi-arrows-fullscreen"></i></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-thumbnail" data-bs-toggle="modal" data-bs-target="#modal-3">
+                        <img src="https://picsum.photos/200/201" alt="Detalhe do vestido e bota da noiva">
+                        <div class="gallery-overlay"><i class="bi bi-arrows-fullscreen"></i></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-thumbnail" data-bs-toggle="modal" data-bs-target="#modal-4">
+                        <img src="https://picsum.photos/200/200" alt="Decoração com luzes de fada">
+                        <div class="gallery-overlay"><i class="bi bi-arrows-fullscreen"></i></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-thumbnail" data-bs-toggle="modal" data-bs-target="#modal-5">
+                        <img src="https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg" alt="Casal caminhando ao pôr do sol">
+                        <div class="gallery-overlay"><i class="bi bi-arrows-fullscreen"></i></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-thumbnail" data-bs-toggle="modal" data-bs-target="#modal-6">
+                        <img src="https://images.pexels.com/photos/2034336/pexels-photo-2034336.jpeg" alt="Bolo de casamento rústico">
+                        <div class="gallery-overlay"><i class="bi bi-arrows-fullscreen"></i></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-thumbnail" data-bs-toggle="modal" data-bs-target="#modal-7">
+                        <img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg" alt="Noivos de costas olhando a paisagem">
+                        <div class="gallery-overlay"><i class="bi bi-arrows-fullscreen"></i></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-thumbnail" data-bs-toggle="modal" data-bs-target="#modal-8">
+                        <img src="https://images.pexels.com/photos/167445/pexels-photo-167445.jpeg" alt="Brinde dos noivos">
+                        <div class="gallery-overlay"><i class="bi bi-arrows-fullscreen"></i></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="modal fade" id="modal-1"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><img src="https://images.pexels.com/photos/169190/pexels-photo-169190.jpeg"></div></div></div>
+    <div class="modal fade" id="modal-2"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><img src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg"></div></div></div>
+    <div class="modal fade" id="modal-3"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><img src="https://images.pexels.com/photos/1408332/pexels-photo-1408332.jpeg"></div></div></div>
+    <div class="modal fade" id="modal-4"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><img src="https://images.pexels.com/photos/9312911/pexels-photo-9312911.jpeg"></div></div></div>
+    <div class="modal fade" id="modal-5"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><img src="https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg"></div></div></div>
+    <div class="modal fade" id="modal-6"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><img src="https://images.pexels.com/photos/2034336/pexels-photo-2034336.jpeg"></div></div></div>
+    <div class="modal fade" id="modal-7"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg"></div></div></div>
+    <div class="modal fade" id="modal-8"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><img src="https://images.pexels.com/photos/167445/pexels-photo-167445.jpeg"></div></div></div>
+
+  
+     <footer class="bg-dark text-light text-center py-4">
+    <div class="container">
+
+        <h4 class="h5 footer-brand-font">Raiz & Amor Casamentos</h4>
+        
+        <p class="text-white-50 small mb-3">Celebrando o amor com a alma do campo.</p>
+
+        <div class="mb-3">
+            <a href="#" class="text-light mx-2 fs-4"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-light mx-2 fs-4"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light mx-2 fs-4"><i class="bi bi-pinterest"></i></a>
+        </div>
+
+        <ul class="nav justify-content-center mb-3">
+            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-white-50">Início</a></li>
+            <li class="nav-item"><a href="serviços.html" class="nav-link px-2 text-white-50">Serviços</a></li>
+            <li class="nav-item"><a href="galeria.html" class="nav-link px-2 text-white-50">Galeria</a></li>
+            <li class="nav-item"><a href="orcamento.html" class="nav-link px-2 text-white-50">Orçamento</a></li>
+            <li class="nav-item"><a href="contato.html" class="nav-link px-2 text-white-50">Contato</a></li>
+        </ul>
+
+        <p class="small text-white-50 border-top border-secondary pt-3 mt-3 mb-0">
+            &copy; 2025 Raiz & Amor Casamentos. Todos os direitos reservados.
+        </p>
+
+    </div>
+</footer>
+
+
+
+<!-- inicio offcanvas -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasOrcamento" aria-labelledby="offcanvasOrcamentoLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title footer-heading" id="offcanvasOrcamentoLabel">Orçamento Rápido</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Deixe seus dados e uma breve descrição do seu sonho. Entraremos em contato o mais rápido possível!</p>
+    
+    <form id="quick-quote-form" class="mt-4">
+        <div class="mb-3">
+            <label for="offcanvas-name" class="form-label">Seu Nome</label>
+            <input type="text" class="form-control" id="offcanvas-name" required>
+        </div>
+        <div class="mb-3">
+            <label for="offcanvas-email" class="form-label">Seu Melhor E-mail</label>
+            <input type="email" class="form-control" id="offcanvas-email" required>
+        </div>
+        <div class="mb-3">
+            <label for="offcanvas-date" class="form-label">Data Prevista do Evento</label>
+            <input type="date" class="form-control" id="offcanvas-date">
+        </div>
+        <div class="mb-4">
+            <label for="offcanvas-message" class="form-label">Sua Mensagem</label>
+            <textarea class="form-control" id="offcanvas-message" rows="5" placeholder="Ex: Gostaria de um orçamento para 150 convidados..."></textarea>
+        </div>
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary btn-lg">Enviar Solicitação</button>
+        </div>
+    </form>
+    
+    <hr class="my-4">
+    
+    <div class="text-center">
+        <p>Prefere ver todos os detalhes?</p>
+        <a href="orcamento.html" class="btn btn-outline-primary">Ir para a Página de Orçamento Completo</a>
+    </div>
+
+  </div>
+</div>
+
+ <!-- fim offcanvas  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
